@@ -2,7 +2,6 @@ package yeying.utils;
 
 import org.springframework.util.StringUtils;
 
-import java.lang.reflect.ParameterizedType;
 
 /**
  * Author maple
@@ -22,10 +21,10 @@ public class EntityWrapper {
 private String orderType="desc";
     private String orderBy="";
   public void addAnd(String attribute,String value,String experience){
-      where.append(" and obj."+attribute +" " +experience+" "+value);
+      where.append(" and obj."+attribute +" "+experience+" \'"+value+"\' ");
   }
   public void addOr(String attribute,String value,String experience){
-      where.append(" or obj."+attribute +" " +experience+" "+value);
+      where.append(" or obj."+attribute+" "+experience+" \'"+value+"\' ");
   }
     /**
      *
@@ -67,7 +66,7 @@ private String orderType="desc";
   public String getDeleteHql(){
 
 
-        return "delete obj from "+clz.getSimpleName()+where;
+        return "delete from "+clz.getSimpleName()+" as obj "+where;
     }
 
     /**

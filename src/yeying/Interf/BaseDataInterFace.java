@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface BaseDataInterFace<T> {
 
-    public List<T> queryByHql(String hql, String... values);
+    public List<T> queryByHql(String hql, Object... values);
     /**
      * 根据class类和Id查询数据
      *
@@ -23,6 +23,8 @@ public interface BaseDataInterFace<T> {
     public T queryById(long id) ;
 
     public T queryById(int id);
+
+    public void deleteById(long id);
 
     /**
      * 根据条件查询
@@ -52,6 +54,11 @@ public interface BaseDataInterFace<T> {
     public void delete(T entity);
 
     /**
+     * 保存到数据库
+     */
+    public void save(T entity);
+
+    /**
      * 根据类对象与ID删除数据
      */
 
@@ -75,7 +82,7 @@ public interface BaseDataInterFace<T> {
     public Page<T> queryPage(EntityWrapper entityWrapper,int currentPage);
 
     /**
-     *根据自己拼接的SQL查询
+     *根据自己拼接的hQL查询
      * @param offset 从第几条开始查询
      * @param limit  每页显示几条记录
      * @return
@@ -84,12 +91,18 @@ public interface BaseDataInterFace<T> {
     public List<T> queryList(String sql,int offset,int limit);
 
     /**
-     *根据自己拼接的sql查询
+     *根据自己拼接的hql查询
      * @param offset 从第几条开始查询,默认每页20条
      * @param
      * @return
      */
+    public List<T> queryList(String hql,int offset);
 
-    public List<T> queryList(String sql,int offset);
+    /**
+     *  根据hql执行插入或者删除
+     * @param hql
+     * @return
+     */
+    public void executeUpdateOrDeleteByHql(String hql);
 
 }

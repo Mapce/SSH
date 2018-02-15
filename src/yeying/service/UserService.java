@@ -11,8 +11,5 @@ import yeying.entity.User;
  */
 @Service
 public class UserService extends  BaseService<UserDao,User>{
-    public String test(){
- dao.getByIdT();
- return "1";
-    }
+
 }

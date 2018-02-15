@@ -7,16 +7,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7660b702-5c5b-4e43-a04b-dd7a008b2a0c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_2_12_5_2_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_2_12_5_2_12.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/WEB-INF/applicationContext.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/WEB-INF/dispatcher-servlet.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/yeying_war_exploded/index.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/springmvc-application.xml" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/Interf/BaseDataInterFace.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/controller/TestController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/dao/BaseDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/dao/UserDao.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/entity/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/service/BaseService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/service/UserService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/utils/EntityWrapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/yeying/web/WEB-INF/classes/yeying/utils/Page.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/Interf/BaseDataInterFace.java" afterPath="$PROJECT_DIR$/src/yeying/Interf/BaseDataInterFace.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/controller/TestController.java" afterPath="$PROJECT_DIR$/src/yeying/controller/TestController.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/yeying/dao/BaseDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/dao/UserDao.java" afterPath="$PROJECT_DIR$/src/yeying/dao/UserDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/entity/User.java" afterPath="$PROJECT_DIR$/src/yeying/entity/User.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/service/BaseService.java" afterPath="$PROJECT_DIR$/src/yeying/service/BaseService.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/service/UserService.java" afterPath="$PROJECT_DIR$/src/yeying/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java" afterPath="$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java" />
+      <change beforePath="$PROJECT_DIR$/untitled/META-INF/application.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/applicationContext.xml" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/resources/common-properties" afterPath="$PROJECT_DIR$/web/WEB-INF/resources/common-properties" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/yeying.iml" afterPath="$PROJECT_DIR$/yeying.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,12 +44,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/utils/Page.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
                 <element signature="docComment;class#Page#0" expanded="false" />
                 <element signature="e#3683#3684#0" expanded="true" />
@@ -44,22 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/yeying/dao/BaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="134" column="54" lean-forward="false" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="54" />
+            <state relative-caret-position="2277">
+              <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
               <folding>
-                <element signature="e#1238#1239#0" expanded="true" />
-                <element signature="e#1306#1307#0" expanded="true" />
-                <element signature="e#1512#1513#0" expanded="true" />
-                <element signature="e#1570#1571#0" expanded="true" />
-                <element signature="e#1635#1636#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-                <element signature="e#2098#2099#0" expanded="true" />
-                <element signature="e#2146#2147#0" expanded="true" />
-                <element signature="e#2210#2211#0" expanded="true" />
-                <element signature="e#2258#2259#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2710#2711#0" expanded="true" />
+                <element signature="e#2803#2804#0" expanded="true" />
+                <element signature="e#2867#2868#0" expanded="true" />
+                <element signature="e#2960#2961#0" expanded="true" />
+                <element signature="e#6330#6331#0" expanded="true" />
+                <element signature="e#6385#6386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +81,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="693">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -78,18 +91,13 @@
       <file leaf-file-name="EntityWrapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="77" column="72" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
+            <state relative-caret-position="236">
+              <caret line="76" column="72" lean-forward="false" selection-start-line="76" selection-start-column="72" selection-end-line="76" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="method#setOrderType#0;class#EntityWrapper#0" expanded="false" />
-                <element signature="docComment;method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-                <element signature="method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-                <element signature="method#getDeleteHql#0;class#EntityWrapper#0" expanded="false" />
-                <element signature="e#1761#1762#0" expanded="true" />
-                <element signature="e#1846#1847#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <marker date="1518533840379" expanded="false" signature="1636:1649" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -98,8 +106,8 @@
       <file leaf-file-name="BaseDataInterFace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/Interf/BaseDataInterFace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+            <state relative-caret-position="2970">
+              <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,22 +115,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BaseService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/service/BaseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-465">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="1749">
+              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-                <element signature="e#955#956#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1544#1545#0" expanded="true" />
-                <element signature="e#1598#1599#0" expanded="true" />
-                <element signature="e#1668#1669#0" expanded="true" />
-                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#3245#3246#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -131,10 +130,11 @@
       <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/yeying/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="990">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -243,8 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,6 +297,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yeying" type="58d84e3e:PackageViewProjectNode" />
+              <item name="yeying" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -315,17 +325,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="yeying" type="58d84e3e:PackageViewProjectNode" />
-              <item name="yeying" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -615,11 +615,12 @@
       <workItem from="1517671631399" duration="7336000" />
       <workItem from="1517840030267" duration="178000" />
       <workItem from="1518176197613" duration="10706000" />
+      <workItem from="1518675057646" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40467000" />
+    <option name="totallyTimeSpent" value="40725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -638,7 +639,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06507937" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4047619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -648,7 +648,7 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -658,6 +658,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4047619" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -673,13 +674,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/yeying/controller/TestController.java</url>
-          <line>29</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/yeying/dao/BaseDao.java</url>
-          <line>100</line>
+          <line>134</line>
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
@@ -689,12 +690,65 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/yeying/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1980">
+          <caret line="77" column="72" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <marker date="1518533840379" expanded="false" signature="1636:1649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/Interf/BaseDataInterFace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2739">
+          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#3245#3246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/yeying/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -704,16 +758,7 @@
         <state relative-caret-position="1419">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#3245#3246#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,16 +778,13 @@
         <state relative-caret-position="2508">
           <caret line="76" column="34" lean-forward="false" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
           <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
+            <element signature="e#6385#6386#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -753,13 +795,9 @@
           <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#addAnd#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#addOr#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#setOrderType#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="docComment;method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="docComment;method#getHql#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#getHql#0;class#EntityWrapper#0" expanded="false" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <marker date="1518533840379" expanded="false" signature="1636:1649" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -777,16 +815,13 @@
         <state relative-caret-position="561">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
+            <element signature="e#6385#6386#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,16 +831,7 @@
         <state relative-caret-position="594">
           <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#3245#3246#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,6 +866,7 @@
           <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -858,6 +885,7 @@
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -880,7 +908,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,16 +916,13 @@
         <state relative-caret-position="396">
           <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
+            <element signature="e#6385#6386#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -917,6 +941,7 @@
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -980,7 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1044,52 +1068,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
           <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/yeying/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="693">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="77" column="72" lean-forward="false" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="method#setOrderType#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="docComment;method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#setOrderBy#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="method#getDeleteHql#0;class#EntityWrapper#0" expanded="false" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1846#1847#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/yeying/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="990">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1518593511308" expanded="true" signature="1267:1268" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/yeying/Interf/BaseDataInterFace.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="87" column="29" lean-forward="false" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
+        <state relative-caret-position="2970">
+          <caret line="94" column="29" lean-forward="false" selection-start-line="94" selection-start-column="29" selection-end-line="94" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1749">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="e#3245#3246#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/yeying/utils/EntityWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="76" column="72" lean-forward="false" selection-start-line="76" selection-start-column="72" selection-end-line="76" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <marker date="1518533840379" expanded="false" signature="1636:1649" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1097,7 +1126,7 @@
     <entry file="file://$PROJECT_DIR$/src/yeying/utils/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="docComment;class#Page#0" expanded="false" />
             <element signature="e#3683#3684#0" expanded="true" />
@@ -1109,38 +1138,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/yeying/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="134" column="54" lean-forward="false" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="54" />
+        <state relative-caret-position="2277">
+          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
           <folding>
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1306#1307#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1635#1636#0" expanded="true" />
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2146#2147#0" expanded="true" />
-            <element signature="e#2210#2211#0" expanded="true" />
-            <element signature="e#2258#2259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/yeying/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1544#1545#0" expanded="true" />
-            <element signature="e#1598#1599#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
+            <element signature="e#2803#2804#0" expanded="true" />
+            <element signature="e#2867#2868#0" expanded="true" />
+            <element signature="e#2960#2961#0" expanded="true" />
+            <element signature="e#6330#6331#0" expanded="true" />
+            <element signature="e#6385#6386#0" expanded="true" />
           </folding>
         </state>
       </provider>

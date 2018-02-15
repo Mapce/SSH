@@ -12,7 +12,12 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/web/WEB-INF/resources/springmvc-application.xml</file>
+        </fileset>
+      </configuration>
     </facet>
     <facet type="hibernate" name="Hibernate">
       <configuration>
@@ -58,5 +63,29 @@
     </orderEntry>
     <orderEntry type="library" exported="" name="c3p0:c3p0:0.9.1.1" level="project" />
     <orderEntry type="library" name="javax:javaee-api:7.0" level="project" />
+    <orderEntry type="library" exported="" name="Spring Security-3.2.5 (2)" level="project" />
+    <orderEntry type="library" name="jstl:jstl:1.2" level="project" />
+    <orderEntry type="library" name="aspectj:aspectjweaver:1.5.3" level="project" />
+    <orderEntry type="library" name="aliyun-sdk-oss-2.8.2" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/json-lib-0.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/json-lib-0.9_2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="json-lib-0.9" level="project" />
+    <orderEntry type="library" name="junit:junit:4.11" level="project" />
   </component>
 </module>

@@ -16,4 +16,4 @@ hibernate-dialect=org.hibernate.dialect.MySQLDialect
 hibernate-show-sql=true
 hibernate-format_sql=false
 hibernate-comments=false
-hibernate-hbm2ddl.auto=validate
+hibernate-hbm2ddl.auto=update
