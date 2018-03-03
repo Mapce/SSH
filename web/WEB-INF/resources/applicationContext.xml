@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+         http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.1.xsd
+       ">
+
+    <context:annotation-config></context:annotation-config>
+    <context:property-placeholder location="WEB-INF/resources/common-properties"></context:property-placeholder>
+    <context:component-scan base-package="yeying"></context:component-scan>
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+
+
+        <!--配置c3p0链接参数-->
+        <property name="driverClass" value="${jdbc-driverClass}"></property>
+        <property name="user" value="${jdbc-username}"></property>
+        <property name="password" value="${jdbc-password}"></property>
+        <property name="jdbcUrl" value="${jdbc-url}"></property>
+        <property name="initialPoolSize" value="${jdbc-initPoolSize}"></property>
+        <property name="minPoolSize" value="${jdbc-minPoolSize}"></property>
+        <property name="maxPoolSize" value="${jdbc-maxPoolSize}"></property>
+        <property name="maxIdleTime" value="${jdbc-maxIdelTime}"/>
+    </bean>
+    <!--===========================================-->
+
+
+    <!--hibernate sessionFactory配置-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="packagesToScan">
+            <list>
+                <value>yeying.entity</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate-dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate-show-sql}</prop>
+                <prop key="hibernate.format_sql">${hibernate-format_sql}</prop>
+                <prop key="hibernate.use_sql_commants">${hibernate-comments}</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate-hbm2ddl.auto}</prop>
+            </props>
+        </property>
+    </bean>
+    <!--===========================================-->
+
+
+    <!--//hibernateTemplate-->
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <!--===========================================-->
+<!--开启事务注解支持-->
+    <tx:annotation-driven transaction-manager="tx"/>
+
+    <!--=============事务配置===================-->
+
+<bean id="tx"
+          class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+<property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <tx:advice id="txAdvice" transaction-manager="tx">
+        <tx:attributes>
+            <tx:method name="get*" read-only="false"  propagation="REQUIRED"/>
+            <tx:method name="find*" read-only="false" propagation="REQUIRED"/>
+            <tx:method name="save*" read-only="false" propagation="REQUIRED"/>
+            <tx:method name="update*" read-only="false" propagation="REQUIRED"/>
+            <tx:method name="delete*"  read-only="false" propagation="REQUIRED"/>
+            <tx:method name="execute*"  read-only="false" propagation="REQUIRED"/>
+            <tx:method name="query*"  read-only="false" propagation="REQUIRED"/>
+        </tx:attributes>
+    </tx:advice>
+    <!--aop配置-->
+    <aop:config>
+        <aop:pointcut id="jdbcService" expression="execution(* yeying.service..*.*(..))"/>
+        <aop:advisor pointcut-ref="jdbcService" advice-ref="txAdvice"/>
+    </aop:config>
+    <aop:aspectj-autoproxy proxy-target-class="true"/>
+
+<!--bean声明-->
+    <bean id="baseDao" class="yeying.dao.BaseDao">
+        <property name="hibernateTemplate" ref="hibernateTemplate"></property>
+    </bean>
+
+
+</beans>

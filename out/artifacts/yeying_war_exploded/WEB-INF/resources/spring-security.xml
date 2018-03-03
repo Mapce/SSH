@@ -1,0 +1,37 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/security
+        http://www.springframework.org/schema/security/spring-security.xsd">
+    <!--权限控制-->
+    <!--静态文件-->
+    <http auto-config="true" >
+        <!--没登陆时候跳转到登陆页面-->
+        <!--login-processing-url:虚方法，登陆页面action指定的参数，不需要实际设置
+        username-parameter:登陆表单用户名参数
+        password-parameter:密码name参数
+        -->
+        <!--登录页由spring-security控制，不经过springmvc跳转-->
+    <form-login login-page="/login.jsp" login-processing-url="/login.htm"
+                username-parameter="username" password-parameter="password"
+                default-target-url="/welcome.htm"
+                always-use-default-target="true"></form-login>
+        <intercept-url pattern="/login.jsp"
+                       access="IS_AUTHENTICATED_ANONYMOUSLY"></intercept-url>
+<!--spring-mvc权限控制-->
+        <intercept-url pattern="/welcome.htm"
+                       access="IS_AUTHENTICATED_ANONYMOUSLY"></intercept-url>
+      <intercept-url pattern="/account/*.htm" access="ROLE_USER,ROLE_ADMIN" ></intercept-url>
+    </http>
+    <!--认证，分派角色
+    默认情况下 authentication-provider 对应一个 DaoAuthenticationProvider
+    -->
+    <authentication-manager>
+        <authentication-provider user-service-ref="userDao">
+        </authentication-provider>
+    </authentication-manager>
+
+
+</beans:beans>
