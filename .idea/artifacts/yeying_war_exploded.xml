@@ -6,6 +6,19 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="yeying" />
+          <element id="jpa-descriptors" facet="yeying/jpa/JPA" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+          <element id="library" level="project" name="jdom-1.1" />
+          <element id="library" level="project" name="junit:junit:4.11" />
+          <element id="library" level="project" name="aspectj:aspectjweaver:1.5.3" />
+          <element id="library" level="project" name="Spring MVC-4.3.14.RELEASE" />
+          <element id="library" level="project" name="Hibernate 5.2.13-5.2.13" />
+          <element id="library" level="project" name="Spring-4.3.14.RELEASE" />
+          <element id="library" level="project" name="Spring Security-3.2.5" />
+          <element id="library" level="project" name="javaee-web-api-8.0" />
+          <element id="library" level="project" name="jstl:jstl:1.1.0" />
         </element>
       </element>
     </root>

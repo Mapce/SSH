@@ -12,7 +12,6 @@
 <html>
 <head>
     <title>Title</title>
-    <script src="${jsBasePath}/jquery-3.3.1.min.js" ></script>
 </head>
 <script>
 

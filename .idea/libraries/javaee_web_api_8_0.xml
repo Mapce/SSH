@@ -2,6 +2,7 @@
   <library name="javaee-web-api-8.0">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/javaee-web-api-8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javaee-api-7.0.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
